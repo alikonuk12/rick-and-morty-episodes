@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EpisodeDetail rendering episode detail 1`] = `
+Array [
+  <div
+    className="container"
+  >
+    <div
+      className="filterButtonContainer"
+    >
+      <Filter
+        onChange={[Function]}
+        value=""
+      />
+      <Dropdown
+        list={
+          Array [
+            "Select Status",
+            "Alive",
+            "Dead",
+            "unknown",
+          ]
+        }
+        onChange={[Function]}
+      />
+      <Dropdown
+        list={
+          Array [
+            "Select Gender",
+            "Female",
+            "Male",
+            "Genderless",
+            "unknown",
+          ]
+        }
+        onChange={[Function]}
+      />
+      <Button
+        onClick={[Function]}
+        text="A -> Z"
+      />
+    </div>
+    <div
+      className="episodesContainer"
+    >
+      <div
+        className="spinnerContainer"
+      >
+        <Spinner />
+      </div>
+    </div>
+  </div>,
+]
+`;

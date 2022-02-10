@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header rendering header 1`] = `
+Array [
+  <header>
+    <div
+      className="header"
+    >
+      <NavLink
+        className={[Function]}
+        exact="true"
+        to="/"
+      >
+        <img
+          alt="banner"
+          className="img"
+          src="banner.png"
+        />
+      </NavLink>
+      <NavLink
+        className={[Function]}
+        exact="true"
+        to="/"
+      >
+        Home
+      </NavLink>
+    </div>
+  </header>,
+]
+`;
