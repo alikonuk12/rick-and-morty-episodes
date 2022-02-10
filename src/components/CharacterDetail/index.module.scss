@@ -1,0 +1,122 @@
+@use '../../assets/scss/constants.module.scss' as constant;
+
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: {
+        top: 20px;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+    };
+    color: constant.$white;
+}
+.image {
+    width: 225px;
+    border: {
+        top-left-radius: 10px;
+        top-right-radius: 10px;
+        bottom-left-radius: 10px;
+        bottom-right-radius: 10px;
+    }
+    margin-right: 20px;
+}
+.name {
+    font: {
+        size: 26px;
+        weight: bolder;
+    }
+}
+.statusContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.greenDot {
+    height: 8px; 
+    width: 8px;
+    background-color: constant.$green;
+    border-radius: 50%;
+}
+.redDot {
+    height: 8px; 
+    width: 8px;
+    background-color: constant.$red;
+    border-radius: 50%;
+}
+.lightgrayDot {
+    height: 8px; 
+    width: 8px;
+    background-color: constant.$lightgray;
+    border-radius: 50%;
+}
+.status {
+    font: {
+        size: 16px;
+        weight: 700;
+    };
+    margin-left: 5px;
+}
+.subContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+}
+.titleContainer {
+    margin-bottom: 15px;
+}
+.subTitle {
+    color: constant.$lightgray;
+    font: {
+        size: 16px;
+        weight: 500;
+    };
+    margin-right: 5px;
+}
+.type {
+    font: {
+        size: 16px;
+        weight: 700;
+    };
+}
+.gender {
+    font: {
+        size: 16px;
+        weight: 700;
+    };
+}
+.episodeContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: {
+        top: 20px;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+    };
+    color: constant.$white;
+}
+.episodeHeader {
+    font: {
+        size: 34px;
+        weight: bolder;
+    }
+}
+.episodes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: {
+        top: 20px;
+        bottom: 20px;
+    };
+    gap: 20px;
+}
+.spinnerContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}

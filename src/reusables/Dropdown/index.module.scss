@@ -1,0 +1,13 @@
+@use '../../assets/scss/constants.module.scss' as constant;
+
+.input {
+    background-color: constant.$gray;
+    color: constant.$white;
+    border-radius: 10px;
+    width: 150px;
+    font: {
+        size: 14px;
+        weight: 500;
+    };
+    margin-right: 10px;
+}

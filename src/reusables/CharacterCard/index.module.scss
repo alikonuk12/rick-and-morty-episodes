@@ -1,0 +1,83 @@
+@use '../../assets/scss/constants.module.scss' as constant;
+
+.container {
+    width: 550px;
+    border-radius: 10px;
+    color: constant.$white;
+    background-color: constant.$gray;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+}
+.image {
+    width: 200px;
+    border: {
+        top-left-radius: 10px;
+        bottom-left-radius: 10px;
+    }
+    margin-right: 20px;
+}
+.name {
+    font: {
+        size: 26px;
+        weight: bolder;
+    }
+    &:hover {
+        cursor: pointer;
+        color: constant.$orange;
+    }
+}
+.statusContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.greenDot {
+    height: 8px; 
+    width: 8px;
+    background-color: constant.$green;
+    border-radius: 50%;
+}
+.redDot {
+    height: 8px; 
+    width: 8px;
+    background-color: constant.$red;
+    border-radius: 50%;
+}
+.lightgrayDot {
+    height: 8px; 
+    width: 8px;
+    background-color: constant.$lightgray;
+    border-radius: 50%;
+}
+.status {
+    font: {
+        size: 16px;
+        weight: 700;
+    };
+    margin-left: 5px;
+}
+.subTitle {
+    color: constant.$lightgray;
+    font: {
+        size: 16px;
+        weight: 500;
+    };
+}
+.location {
+    margin-bottom: 15px;
+}
+.detailsContainer {
+    display: flex;
+    align-items: flex-end;
+}
+.details {
+    color: constant.$orange;
+    text-decoration: none;
+    float: right;
+    &:hover {
+        text-decoration: underline;
+    }
+}

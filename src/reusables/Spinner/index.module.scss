@@ -1,0 +1,19 @@
+@use '../../assets/scss/constants.module.scss' as constant;
+
+.spinner {
+    border: 10px solid constant.$white;
+    border-top: 10px solid constant.$gray;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    animation: spin 1.5s both infinite;
+
+    @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      } 
+  }

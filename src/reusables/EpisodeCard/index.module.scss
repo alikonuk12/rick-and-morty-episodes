@@ -1,0 +1,35 @@
+@use '../../assets/scss/constants.module.scss' as constant;
+
+.container {
+    width: 350px;
+    padding: {
+        left: 20px;
+        right: 20px;
+        top: 20px;
+        bottom: 20px;
+    };
+    border-radius: 10px;
+    color: constant.$white;
+    background-color: constant.$gray;
+}
+.episode {
+    font: {
+        size: 12px;
+        weight: bolder;
+    };
+}
+.name {
+    font-size: 18px;
+
+}
+.airDate {
+    font-size: 14px;
+}
+.details {
+    color: constant.$orange;
+    text-decoration: none;
+    float: right;
+    &:hover {
+        text-decoration: underline;
+    }
+}
