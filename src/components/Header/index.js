@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header>
             <div className={styles.header}>
-                <img src={Banner} onClick={handleClickImg} className={styles.img} />
+                <img src={Banner} onClick={handleClickImg} className={styles.img} alt='banner' />
                 <NavLink
                     exact='true'
                     to="/"
