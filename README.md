@@ -9,7 +9,16 @@ Below you will find some information on how to perform common tasks.
 - [Folder Structure](#fs)
 - [Screenshots](#ss)
 - [Technologies Used](#tech)
+    - [Jest and Enzyme](#test)
+    - [React Router](#router)
+    - [Axios](#axios)
+    - [SASS](#sass)
 - [Available Scripts](#scripts)
+    - [npm start](#start)
+    - [npm test](#test)
+    - [npm run build](#build)
+    - [npm run eject](#eject)
+
 
 <a name="desc"></a>
 ## Description
@@ -98,6 +107,7 @@ rick-and-morty-episodes/
 
 Jest and Enzyme modules are used to write test codes. React Router v6 is used to access corresponding component with URL. Axios is used to send request to APIs and take response from APIs. SASS is used to add stylesheet to JS files.
 
+<a name="desc"></a>
 ### Jest and Enzyme
 
 [Jest](https://jestjs.io/) is a delightful JavaScript Testing Framework with a focus on simplicity.
@@ -123,6 +133,7 @@ describe('Home', () => {
 });
 ```
 
+<a name="router"></a>
 ### React Router
 
 [React Router](https://reactrouter.com/) is a lightweight, fully-featured routing library for the React JavaScript library.
@@ -141,6 +152,7 @@ Pages are mapped with their URL's. Thus, it can be swictable between pages.
 </BrowserRouter>
 ```
 
+<a name="axios"></a>
 ### Axios
 
 [Axios](https://axios-http.com/) is a simple promise based HTTP client for the browser and node.js.
@@ -172,6 +184,7 @@ const getById = async _id => {
 export default getById;
 ```
 
+<a name="sass"></a>
 ### SASS
 
 [Sass](https://sass-lang.com/) is the most mature, stable, and powerful professional grade CSS extension language in the world.
@@ -198,6 +211,7 @@ Sass provided styles for tags in components.
 
 In the project directory, you can run:
 
+<a name="start"></a>
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -206,11 +220,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+<a name="test"></a>
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+<a name="build"></a>
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -221,6 +237,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+<a name="eject"></a>
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
