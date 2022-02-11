@@ -9,7 +9,7 @@ Below you will find some information on how to perform common tasks.
 - [Folder Structure](#fs)
 - [Screenshots](#ss)
 - [Technologies Used](#tech)
-    - [Jest and Enzyme](#test)
+    - [Jest and Enzyme](#jest)
     - [React Router](#router)
     - [Axios](#axios)
     - [SASS](#sass)
@@ -107,7 +107,7 @@ rick-and-morty-episodes/
 
 Jest and Enzyme modules are used to write test codes. React Router v6 is used to access corresponding component with URL. Axios is used to send request to APIs and take response from APIs. SASS is used to add stylesheet to JS files.
 
-<a name="desc"></a>
+<a name="jest"></a>
 ### Jest and Enzyme
 
 [Jest](https://jestjs.io/) is a delightful JavaScript Testing Framework with a focus on simplicity.
