@@ -3,19 +3,91 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Below you will find some information on how to perform common tasks.
 
+## Table of Contents
+
+[Description](## Description)
+[Folder Structure](## Folder Structure)
+[Screenshots](## Screenshots)
+[Technologies Used](## Technologies Used)
+[Available Scripts](## Available Scripts)
+
 ## Description
 
 This project is about Rick And Morty series. It contains series episodes, information for each episode and information for each character in episode.
 
+## Folder Structure
+
+After creation, your project should look like this:
+
+```
+rick-and-morty-episodes/
+  README.md
+  node_modules/
+  package.json
+  package-lock.json
+  .gitignore
+  public/
+    favicon.ico
+    index.html
+  src/
+    setupTests.js
+    reportWebVitals.js
+    index.js
+    index.css
+    App.js
+    test/
+        CharacterDetail/
+            CharacterDetail.test.js
+        EpisodeDetail/
+            EpisodeDetail.test.js
+        Header/
+            Header.test.js
+        Home/
+            Home.test.js
+    reusables/
+        index.js
+        Button/
+        CharacterCard/
+        Dropdown/
+        EpisodeCard/
+        Filter/
+        Spinner/
+    components/
+        index.js
+        CharacterDetail/
+        EpisodeDetail/
+        Header/
+        Home/
+    assets/
+        img/
+        screenshots/
+        scss/
+    api/
+        character/
+            index.js
+            get.js
+            getById.js
+            getByLink.js
+        episode/
+            index.js
+            get.js
+            getById.js
+            getByLink.js
+        constant.js
+```
+
 ## Screenshots
 
 `Home`
+
 ![title](./src/assets/screenshots/Home.png)
 
 `Episode Detail`
+
 ![title](./src/assets/screenshots/EpisodeDetail.png)
 
 `Character Detail`
+
 ![title](./src/assets/screenshots/CharacterDetail.png)
 
 ## Technologies Used
