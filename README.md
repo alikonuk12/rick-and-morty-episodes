@@ -10,13 +10,41 @@ This project is about Rick And Morty series. It contains series episodes, inform
 ## Screenshots
 
 Home
-![title](./src/assets/screenshots/Home.png);
+![title](./src/assets/screenshots/Home.png)
 
 Episode Detail 
-![title](./src/assets/screenshots/EpisodeDetail.png);
+![title](./src/assets/screenshots/EpisodeDetail.png)
 
 Character Detail
-![title](./src/assets/screenshots/CharacterDetail.png);
+![title](./src/assets/screenshots/CharacterDetail.png)
+
+## Technologies Used
+
+Jest and Enzyme modules are used to write test codes. React Router v6 is used to access corresponding component with URL. Axios is used to send request to APIs and take response from APIs. SASS is used to add stylesheet to JS files.
+
+### Jest and Enzyme
+
+[Jest](https://jestjs.io/) is a delightful JavaScript Testing Framework with a focus on simplicity.
+[Enzyme](https://enzymejs.github.io/enzyme/) is a JavaScript Testing utility for React that makes it easier to test your React Components' output.
+
+`Home.test.js`
+
+```
+import React from 'react';
+import Enzyme, { shallow } from 'enzyme';
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
+import { Home } from '../../components';
+
+Enzyme.configure({ adapter: new Adapter() });
+
+describe('Home', () => {
+    it('rendering home', () => {
+        const component = shallow(<Home />);
+        expect(component).not.toBe(null);
+        expect(component.getElements()).toMatchSnapshot();
+    });
+});
+```
 
 ## Available Scripts
 
