@@ -6,16 +6,17 @@ Below you will find some information on how to perform common tasks.
 ## Table of Contents
 
 [Description](#desc)
-[Folder Structure](## Folder Structure)
-[Screenshots](## Screenshots)
-[Technologies Used](## Technologies Used)
-[Available Scripts](## Available Scripts)
+[Folder Structure](#fs)
+[Screenshots](#ss)
+[Technologies Used](#tech)
+[Available Scripts](#scripts)
 
 <a name="desc"></a>
 ## Description
 
 This project is about Rick And Morty series. It contains series episodes, information for each episode and information for each character in episode.
 
+<a name="fs"></a>
 ## Folder Structure
 
 After creation, your project should look like this:
@@ -77,6 +78,7 @@ rick-and-morty-episodes/
         constant.js
 ```
 
+<a name="ss"></a>
 ## Screenshots
 
 `Home`
@@ -91,6 +93,7 @@ rick-and-morty-episodes/
 
 ![title](./src/assets/screenshots/CharacterDetail.png)
 
+<a name="tech"></a>
 ## Technologies Used
 
 Jest and Enzyme modules are used to write test codes. React Router v6 is used to access corresponding component with URL. Axios is used to send request to APIs and take response from APIs. SASS is used to add stylesheet to JS files.
@@ -190,6 +193,7 @@ Sass provided styles for tags in components.
 }
 ```
 
+<a name="scripts"></a>
 ## Available Scripts
 
 In the project directory, you can run:
