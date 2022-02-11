@@ -5,12 +5,13 @@ Below you will find some information on how to perform common tasks.
 
 ## Table of Contents
 
-[Description](## Description)
+[Description](#desc)
 [Folder Structure](## Folder Structure)
 [Screenshots](## Screenshots)
 [Technologies Used](## Technologies Used)
 [Available Scripts](## Available Scripts)
 
+<a name="desc"></a>
 ## Description
 
 This project is about Rick And Morty series. It contains series episodes, information for each episode and information for each character in episode.
