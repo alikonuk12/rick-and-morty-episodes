@@ -1,6 +1,22 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Below you will find some information on how to perform common tasks.
+
+## Description
+
+This project is about Rick And Morty series. It contains series episodes, information for each episode and information for each character in episode.
+
+## Screenshots
+
+Home
+![title](./src/assets/screenshots/Home.png);
+
+Episode Detail 
+![title](./src/assets/screenshots/EpisodeDetail.png);
+
+Character Detail
+![title](./src/assets/screenshots/CharacterDetail.png);
 
 ## Available Scripts
 
