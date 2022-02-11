@@ -5,11 +5,11 @@ Below you will find some information on how to perform common tasks.
 
 ## Table of Contents
 
-[Description](#desc)
-[Folder Structure](#fs)
-[Screenshots](#ss)
-[Technologies Used](#tech)
-[Available Scripts](#scripts)
+- [Description](#desc)
+- [Folder Structure](#fs)
+- [Screenshots](#ss)
+- [Technologies Used](#tech)
+- [Available Scripts](#scripts)
 
 <a name="desc"></a>
 ## Description
